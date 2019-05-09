@@ -20,4 +20,4 @@ Command       |  Description
 
 To execute the program:
 
-`./fillit <fillit-file>`
+`./fillit <tetromino-file>`
