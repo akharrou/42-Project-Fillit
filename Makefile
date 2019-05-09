@@ -27,13 +27,7 @@ SOURCES     =   main.c      \
 
 OBJECTS     =   $(SOURCES:.c=.o)
 
-
 # — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — #
-#                                                                             #
-#                            DO NOT TOUCH THE REST                            #
-#                                                                             #
-# — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — #
-
 
 all: $(NAME)
 
@@ -61,11 +55,6 @@ fclean: clean
 re: fclean all
 
 # — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — #
-#                                                                             #
-#                                    EXTRA                                    #
-#                                                                             #
-# — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — #
-
 
 nc:
 	@echo && echo $(GREEN) "Checking Norme -- Source Files:" && echo $(WHITE);
