@@ -9,16 +9,14 @@ number of possibilities each time a piece is added.
 
 ## Compile
 
-Run the following commands:
-
-* To compile
-	- `make`
-* To remove objects:
-	- `make clean`
-* To remove objects and binary file (program):
-	- `make fclean`
-* To re-compile:
-	- `make re`
+Command       |  Description
+:-------------|:-------------
+`make`        | Compile the library.
+`make clean`  | Remove objects files.
+`make fclean` | Remove objects files and the library.
+`make re`     | Re-compile the library.
+`make test`   | Compile the library, runs a series of tests.
+`make install`| Install the library.
 
 ## Run
 
