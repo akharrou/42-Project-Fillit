@@ -1,8 +1,8 @@
 ## Fillit
 
-This projects seeks to discovering and/or familiarize us to a recurring problematic
-in programming: searching for the optimal solution among a huge set of
-possibilities.
+This projects seeks to make us discover and/or familiarize us to a recurring
+problematic in programming: searching for the optimal solution among a huge
+set of possibilities.
 
 In this particular project, we create an algorithm which fits some Tetriminos
 together into the smallest possible square, in the minimal amount of time,
