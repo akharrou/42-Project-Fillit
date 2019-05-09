@@ -7,9 +7,7 @@ which fits some Tetriminos together into the smallest possible square, in the
 minimal amount of time, amount of time, despite a exponentially growing
 number of possibilities each time a piece is added.
 
-## Getting Started
-
-### Compiling
+## Compile
 
 Run the following commands:
 
@@ -22,7 +20,7 @@ Run the following commands:
 * To re-compile:
 	- `make re`
 
-### Executing
+## Run
 
 To execute the program:
 
