@@ -15,7 +15,7 @@ Command       |  Description
 :-------------|:-------------
 `make`        | Compile the program.
 `make clean`  | Remove objects files.
-`make fclean` | Remove objects files and the library.
+`make fclean` | Remove objects files and the binary.
 `make re`     | Re-compile the program.
 
 ## Run
