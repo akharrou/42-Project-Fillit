@@ -6,7 +6,7 @@
 #    By: akharrou <akharrou@student.42.us.org>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/15 17:19:55 by akharrou          #+#    #+#              #
-#    Updated: 2019/05/15 17:46:23 by akharrou         ###   ########.fr        #
+#    Updated: 2019/05/15 17:49:13 by akharrou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -202,7 +202,9 @@ try:
 
 							arg_input = inputFile[lines_read:]
 							for line in arg_input:
+								line = line.rstrip('\n')
 								print(f"""| {'':{width}} |  {f'{line}':{COL1_LEN}}|   {'':{COL2_LEN}}|   {'':{COL3_LEN}}| """, end="")
+								print(f'  {f"":{COL4_LEN + 8}}|')
 
 							print(f' {f"—" * (BAR_LEN + width)}')
 
@@ -226,3 +228,15 @@ except Exception as e:
 	print(f'{DEFAULT}Copy paste the following and {YELLOW}report or dm{DEFAULT} us @akharrou / @kmira the issue\n\n')
 	print(f'{UNDELRINED}GRUT ISSUE:\n{DEFAULT}{RED_BACKGROUND}{ITALTIC}')
 	raise e
+
+
+    #     new file:   ._main.py
+    #     new file:   .vscode/launch.json
+    #     new file:   42-GRUT
+    #     new file:   fillit
+    #     new file:   grut-fillit.py
+    #     new file:   grut-ft_ssl_md5.py
+    #     new file:   inputFiles
+    #     new file:   main.py
+    #     new file:   test1
+    #     new file:   test2
